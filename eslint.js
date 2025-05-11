@@ -5,7 +5,6 @@ import playwright from 'eslint-plugin-playwright';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 import react from 'eslint-plugin-react';
 import storybook from 'eslint-plugin-storybook';
-import tailwindcss from 'eslint-plugin-tailwindcss';
 import { globalIgnores } from 'eslint/config';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
@@ -70,7 +69,6 @@ export const config = [
 		plugins: {
 			import: (await import('eslint-plugin-import-x')).default,
 			eslint: eslint,
-			tailwindcss: tailwindcss,
 		},
 		languageOptions: {
 			globals: {
