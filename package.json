@@ -1,6 +1,6 @@
 {
   "name": "@khanhtran47/config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "My base ESLint, prettier config for JS/TS projects",
   "keywords": [
     "config",
