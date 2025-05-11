@@ -210,7 +210,6 @@ export const config = [
 							unnamedComponents: 'arrow-function',
 						},
 					],
-					'react/react-in-jsx-scope': OFF,
 					'react/prop-types': OFF,
 					'react/display-name': [
 						ERROR,
@@ -227,7 +226,6 @@ export const config = [
 					'react/jsx-props-no-spreading': OFF,
 					'react/forbid-prop-types': OFF,
 					'react/no-array-index-key': OFF,
-					'react/function-component-definition': OFF,
 					'react/no-unescaped-entities': OFF,
 					'react/prefer-stateless-function': OFF,
 					'react/jsx-sort-props': [
@@ -395,7 +393,6 @@ export const config = [
 						'@typescript-eslint/triple-slash-reference': OFF,
 						'@typescript-eslint/no-empty-function': OFF,
 						'@typescript-eslint/no-empty-interface': OFF,
-						'@typescript-eslint/no-explicit-any': OFF,
 						'import/no-named-as-default': OFF,
 						'import/no-named-as-default-member': OFF,
 						'import/no-cycle': ERROR,
