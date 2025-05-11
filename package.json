@@ -1,7 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/package",
   "name": "@khanhtran47/config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "My base ESLint, prettier config for JS/TS projects",
   "keywords": [
     "config",
