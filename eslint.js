@@ -4,6 +4,7 @@ import jsxA11Y from 'eslint-plugin-jsx-a11y';
 import playwright from 'eslint-plugin-playwright';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 import react from 'eslint-plugin-react';
+import reactHooks from 'eslint-plugin-react-hooks';
 import storybook from 'eslint-plugin-storybook';
 import { globalIgnores } from 'eslint/config';
 import globals from 'globals';
@@ -271,12 +272,11 @@ export const config = [
 				files: ['**/*.ts?(x)', '**/*.js?(x)'],
 				ignores: [...allPlaywrightFiles],
 				plugins: {
-					'react-hooks': (await import('eslint-plugin-react-hooks')).default,
+					'react-hooks': reactHooks,
 				},
 				rules: {
 					'react-hooks/rules-of-hooks': ERROR,
 					'react-hooks/exhaustive-deps': WARN,
-					'react-hooks/react-compiler': WARN,
 				},
 			}
 		: {},
